@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Balik Ke GitHub
+excerpt: Horee, senang bisa balik lagi ke Github!
 ---
 
 ![_config.yml]({{ site.baseurl }}/images/thumbnail.jpg)
