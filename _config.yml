@@ -6,10 +6,10 @@
 name: Manusia Goa
 
 # Short bio or description (displayed in the header)
-description: Blog dari seorang manusia yang tinggal dalam goa
+description: Blog manusia goa pertama dalam sejarah
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://dirgaputraa.github.io/images/thumbnail.jpg
+avatar: https://dirgaputraa.github.io/images/manusiagoa.jpg
 
 #
 # Flags below are optional
@@ -23,7 +23,7 @@ footer-links:
   flickr:
   github: dirgaputraa
   instagram: dirgaputraa
-  linkedin: in/dirgaputra
+  linkedin: dirgaputra
   pinterest:
   rss: # just type anything here for a working RSS icon
   twitter: dirgaputraa
