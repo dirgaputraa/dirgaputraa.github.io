@@ -11,10 +11,13 @@
     <meta property="og:description" content="{{ site.description }}" />
     {% endif %}
     <meta name="author" content="{{ site.name }}" />
+    <meta name="thumbnail" content="https://dirgaputraa.github.io/images/thumbnail.jpg" />
 
-    {% if page.title %}
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="dirgaputraa.github.io" />
+    {% if page.title %}
     <meta name="twitter:title" content="{{ page.title }}" />
-    <meta name="twitter:image" content="https://dirgaputraa.github.io/images/thumbnail.jpg" />
+    {% else %}
+    <meta name="twitter:title" content="{{ site.name }}" />
     {% endif %}
+    <meta name="twitter:image" content="https://dirgaputraa.github.io/images/thumbnail.jpg" />
