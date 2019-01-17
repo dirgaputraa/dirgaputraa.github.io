@@ -16,10 +16,11 @@ $white: #fff;
 
 // Font stacks
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
 $robotoSlab: "Roboto Slab", serif;
 $helvetica: Helvetica, Arial, sans-serif;
 $helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$georgia: Georgia, serif;
+$roboto: "Roboto", sans-serif;
 
 // Mobile breakpoints
 @mixin mobile {
