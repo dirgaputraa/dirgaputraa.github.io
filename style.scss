@@ -243,13 +243,23 @@ nav {
 //
 
 .posts > .post {
-  padding-bottom: 2em;
+  padding-bottom: 0.5em;
+  margin-bottom: 1em;
   border-bottom: 1px solid $lightGray;
 }
 
 .posts > .post:last-child {
   padding-bottom: 1em;
   border-bottom: none;
+}
+
+.blog {
+  // background-color: $lightGray;
+  padding: 0.5em;
+}
+
+.blog > h2 {
+  margin: 0;
 }
 
 .entry {
@@ -273,6 +283,9 @@ nav {
 }
 
 .wrapper-footer {
+  clear: both;
+  position: relative;
+  bottom: 0px;
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
@@ -280,8 +293,9 @@ nav {
 }
 
 footer {
-  padding: 20px 0;
+  padding: 10px 0;
   text-align: center;
+  font-size: 14px;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
